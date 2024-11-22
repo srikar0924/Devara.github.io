@@ -1,0 +1,50 @@
+.first{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+     }
+
+#second{
+    display: block;
+    margin: auto;
+    width: 1%;
+}
+
+.login{
+    background-image: url(bg3);
+    border-radius: 20px;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-color: black;
+   
+    margin: auto;
+    width: 35%;
+}
+input{
+    border-radius: 5px;
+    border: none;
+
+}
+input:focus{
+    background-color: rgb(161, 233, 242);
+}
+input[type="submit"] {
+    width: 70%;
+    padding: 10px;
+    background-color: whitesmoke;  /* White background */
+    color: black;  /* White text color */
+    border: none;  /* Remove default border */
+    border-radius: 5px;  /* Rounded corners */
+    font-size: 16px;  /* Larger font */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;  /* Smooth transition on hover */
+   
+}
+
+

@@ -1,0 +1,73 @@
+
+h1 {
+    text-align: center;
+    color: rgb(188, 48, 48);
+    background-color: #f0f8ff; /* Light blue background */
+  padding: 10px;
+  }
+  body {
+    background: rgb(215,31,31);
+    background: linear-gradient(0deg, rgba(215,31,31,1) 0%, rgba(0,0,0,1) 64%);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p{
+  
+}
+
+.photo {
+    display: flex;
+    overflow: hidden;
+    width: 150%;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%); /* Scroll completely */
+    }
+}
+
+.photo a {
+    flex: 1; /* Allow each anchor to grow equally */
+    margin-right: 10px; /* Space between images */
+}
+
+.photo img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    text-size-adjust: 5;
+}
+video{
+    display: block;
+  margin: 0 auto;
+    
+}
+.first{
+  display: block;
+  margin-left: 41%;
+  width: 13%;
+}
+table{
+  
+  
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  color: #f0f8ff;
+}
+video{
+  border-radius: 25px;
+}

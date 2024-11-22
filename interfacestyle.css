@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+div[class="home"]>table{
+    color: rgb(18, 18, 18);
+    background-color: rgb(245, 208, 208);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    }
+div{
+    text-align: center;
+}
+div a{
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+
+}
+div+img{
+    text-align: center;
+    display: inline-block;
+    margin: 0 15px;
+    width: 50%;
+    
+}
+table [class="home"]+tr~td:hover{
+    background-color: brown;
+
+}
+div[class="object"]>table{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Home navigation */
+
+.home table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.home td {
+    padding: 10px;
+    text-align: center;
+}
+a{
+    color: black;
+}
+.home td:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(142,39,26,1) 35%, rgba(50,140,174,1) 77%, rgba(0,212,255,1) 100%);
+
+}
+.home a:hover{
+    color: beige;
+}
